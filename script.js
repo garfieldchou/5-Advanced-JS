@@ -18,3 +18,7 @@ var Person = function(name, yearOfBirth, job) {
 var john = new Person('John', 1990, 'teacher');
 
 john.calculateAge();
+
+var jane = new Person('Jane', 1969, 'designer');
+
+var mark = new Person('Mark', 1948, 'retired');
