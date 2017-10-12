@@ -114,3 +114,4 @@ var designerQuestion = interviewQuestion('designer');
 teacherQuestion('John');
 designerQuestion('John');
 
+interviewQuestion('teacher')('Mark');
