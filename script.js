@@ -109,4 +109,8 @@ function interviewQuestion(job) {
 }
 
 var teacherQuestion = interviewQuestion('teacher');
+var designerQuestion = interviewQuestion('designer');
+
 teacherQuestion('John');
+designerQuestion('John');
+
