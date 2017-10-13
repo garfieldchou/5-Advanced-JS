@@ -153,7 +153,7 @@ function retirement(retirementAge) {
 var retirementUS = retirement(66);
 retirementUS(1990);
 
-
+retirement(66)(1990);
 
 
 
