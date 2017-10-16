@@ -314,6 +314,8 @@ var n = Math.floor(Math.random() * questions.length);
 
 questions[n].displayQuestion();
 
+var answer = parseInt(prompt('Please select the correct answer.'));
+
 /*
 --- Expert level ---
 
