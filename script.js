@@ -385,12 +385,16 @@ c) correct answer (I would use a number for this)
         var n = Math.floor(Math.random() * questions.length);
 
         questions[n].displayQuestion();
-
-        var answer = parseInt(prompt('Please select the correct answer.'));
-
-        questions[n].checkAnswer(answer);
         
-        nextQuestion();
+        var answer = prompt('Please select the correct answer.');
+        
+        if (answer !== 'exit') {
+
+            questions[n].checkAnswer(parseInt(answer));
+
+            nextQuestion();
+        
+        }
     
     }
     
